@@ -16,25 +16,25 @@
     <!-- Các RadioButton để chọn loại số -->
     <RadioGroup
         android:id="@+id/radioGroup"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <RadioButton
             android:id="@+id/radioEven"
-            android:layout_width="50dp"
+            android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:text="Số chẵn" />
 
         <RadioButton
             android:id="@+id/radioOdd"
-            android:layout_width="50dp"
+            android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:text="Số lẻ" />
 
         <RadioButton
             android:id="@+id/radioSquare"
-            android:layout_width="50dp"
+            android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:text="Số chính phương" />
     </RadioGroup>
